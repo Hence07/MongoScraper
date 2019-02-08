@@ -1,0 +1,26 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "This web app will flex our Mongoose and Cheerio muscles to scrape news from another site and let users view and leave comments on the latest news.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hence07/MongoScraper.git"
+  },
+  "author": "pc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hence07/MongoScraper/issues"
+  },
+  "homepage": "https://github.com/Hence07/MongoScraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.10"
+  }
+}
